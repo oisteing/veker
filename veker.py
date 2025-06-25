@@ -6,7 +6,7 @@ import numpy as np
 st.title("Livet.")
 
 # User input for birth date in DDMMYYYY format
-birth_str = st.text_input("Fødselsdato (DDMMYYYY):", "01011980")
+birth_str = st.text_input("Skriv inn fødselsdato (DDMMYYYY):", "01012980")
 
 try:
     # Parse input string
